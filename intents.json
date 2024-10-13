@@ -1,0 +1,223 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "How do you do?",
+        "Howdie",
+        "What's up?",
+        "Hello there?",
+        "Hi there!",
+        "Hey there!",
+        "Hey, how's it going?",
+        "Is anyone there?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "Hello! Welcome to our sneaker store!",
+        "Hey! Looking for some fresh kicks?",
+        "Hi there! How can we help you find the perfect sneakers?",
+        "Welcome! Ready to shop for sneakers?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later"],
+      "responses": [
+        "Goodbye! Don't forget to come back for more sneakers!",
+        "See you later! Hope you find your perfect pair!",
+        "Thanks for stopping by! Visit us again soon!",
+        "Bye! Stay stylish!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thank you so much",
+        "That's great",
+        "I appreciate your kind words",
+        "No problem",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome! Enjoy your sneakers!",
+        "Glad to help! Let us know if you need anything else!",
+        "My pleasure! Hope you love your new kicks!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What sneakers do you have?",
+        "What kind of sneakers are available?",
+        "What do you sell?",
+        "Show me your sneakers"
+      ],
+      "responses": [
+        "We have a variety of sneakers including Nike, Adidas, Puma, and more!",
+        "Our collection features running shoes, casual sneakers, and exclusive designs!",
+        "You can find the latest releases and limited-edition sneakers here!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Paypal?",
+        "What payment methods are available?",
+        "Can I pay with Mastercard?"
+      ],
+      "responses": [
+        "We accept Mobile Money, VISA, Mastercard, PayPal, and major credit cards!",
+        "You can pay using most credit cards, Mobile Money or PayPal.",
+        "We offer secure payment options including Mastercard, VISA, Mobile Money and PayPal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When will my sneakers arrive?",
+        "How long is shipping?",
+        "What's the delivery time?"
+      ],
+      "responses": [
+        "Delivery usually takes 3-5 business days.",
+        "Your sneakers will be delivered within 3-5 business days!",
+        "We ship within 3-5 days, depending on your location."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "Can I return sneakers?",
+        "What’s your return policy?",
+        "How can I return items?",
+        "Can I exchange my sneakers?"
+      ],
+      "responses": [
+        "You can return your sneakers within 30 days of purchase.",
+        "We offer hassle-free returns and exchanges within 30 days.",
+        "You can easily return or exchange your sneakers if you're not satisfied."
+      ]
+    },
+    {
+      "tag": "sneaker_sizes",
+      "patterns": [
+        "Do you have my size?",
+        "What sizes are available?",
+        "Do you have sneakers in size 10?",
+        "Can I find size 9 sneakers?"
+      ],
+      "responses": [
+        "We carry sizes from 6 to 13, including half-sizes!",
+        "Check out our size guide for details. We stock most common sizes.",
+        "We have sneakers in various sizes, including popular sizes like 9 and 10."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Know any sneaker jokes?",
+        "Can you make me laugh?"
+      ],
+      "responses": [
+        "Why did the sneaker go to school? It wanted to be a kickstarter!",
+        "What do you call a lazy sneaker? A loafer!",
+        "Why did the sneaker break up with the sock? Because it had too many holes!"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "What's your phone number?",
+        "Can I get your email?",
+        "Do you have customer support?"
+      ],
+      "responses": [
+        "You can reach us at +256 750 457 145 or email us at support@sneakerstore.com.",
+        "Our customer support line is available at 123-456-7890, or email us at support@sneakerstore.com.",
+        "Feel free to contact us via phone at 123-456-7890 or email support@sneakerstore.com."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Are there any discounts?",
+        "Do you have sales?",
+        "Are there any promotions right now?",
+        "How can I get a discount?"
+      ],
+      "responses": [
+        "Yes! We currently have a 10% off sale on all sneakers!",
+        "You can use the code SNEAKER10 for a 10% discount!",
+        "Check out our promotions page for the latest deals and discounts."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is your store located?",
+        "What is your address?",
+        "Where can I find you?",
+        "Do you have a physical store?"
+      ],
+      "responses": [
+        "We are located at 123 Kampala Road, Sneakertown.",
+        "Our store is located in downtown Sneakertown at 123 Kampala.",
+        "You can find our physical store at 123 Kampala Road, Sneakertown."
+      ]
+    },
+    {
+      "tag": "hiring",
+      "patterns": [
+        "Are you hiring?",
+        "Do you have job openings?",
+        "Is there a way to work with your store?",
+        "How can I apply for a job?"
+      ],
+      "responses": [
+        "We are currently hiring! You can check out our careers page for available positions.",
+        "Yes, we are hiring! Visit our careers page to see job openings and apply.",
+        "We are always looking for talented people! Check out our jobs section on the website."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "How can I track my order?",
+        "What's the status of my order?",
+        "Can I get an update on my order?"
+      ],
+      "responses": [
+        "You can track your order using the tracking link we sent you in the confirmation email.",
+        "To check your order status, use the tracking number in your order confirmation email.",
+        "Visit our order tracking page and enter your order number to get an update."
+      ]
+    },
+    {
+      "tag": "cancellations",
+      "patterns": [
+        "How can I cancel my order?",
+        "Can I cancel my order?",
+        "What’s your cancellation policy?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "You can cancel your order within 24 hours of placing it.",
+        "To cancel your order, please contact customer service within 24 hours.",
+        "Our cancellation policy allows you to cancel within 24 hours of order placement."
+      ]
+    }
+  ]
+}
