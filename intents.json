@@ -18,10 +18,11 @@
         "How can you assist me?"
       ],
       "responses": [
-        "Hello! Welcome to our sneaker store!",
+        "Hello! I'm here to assist you with any Sneakers questions you have",
         "Hey! Looking for some fresh kicks?",
-        "Hi there! How can we help you find the perfect sneakers?",
-        "Welcome! Ready to shop for sneakers?"
+        "Hi there! feel free to ask me about Sneakers!",
+        "Welcome to Sneakers! How can I help you today?",
+        "Good day! What information can I provide you with today?"
       ]
     },
     {
@@ -303,12 +304,13 @@
         "How long will it take to get my order?",
         "How long does order processing take?",
         "Can you deliver to my country?",
-        "Where do you ship?"
+        "Where do you ship?",
+        "Do you ship to my country?"
       ],
       "responses": [
         "We ship to most countries worldwide! Contact us for specific information.",
-        "Your order will arrive within 3-5 business days after processing, depending on your location.",
-        "Order processing typically takes 1-2 business days before shipping."
+        "Your order will arrive within 3-5 business days after processing, depending on your location or country",
+        "Order processing typically takes 1-2 business days before shipping to most locations"
       ]
     },
     {
