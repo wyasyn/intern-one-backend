@@ -26,7 +26,13 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later"],
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Good luck"
+      ],
       "responses": [
         "Goodbye! Don't forget to come back for more sneakers!",
         "See you later! Hope you find your perfect pair!",
@@ -67,6 +73,17 @@
       ]
     },
     {
+      "tag": "order_process",
+      "patterns": [
+        "How do I place an order?",
+        "Can I place an order online?",
+        "What's the process for buying sneakers?"
+      ],
+      "responses": [
+        "You can place an order by selecting your sneakers, adding them to your cart, and proceeding to checkout. From there, follow the prompts to enter your shipping and payment information."
+      ]
+    },
+    {
       "tag": "payments",
       "patterns": [
         "Do you take credit cards?",
@@ -100,7 +117,8 @@
         "Can I return sneakers?",
         "What’s your return policy?",
         "How can I return items?",
-        "Can I exchange my sneakers?"
+        "Can I exchange my sneakers?",
+        "What is your return/exchange policy?"
       ],
       "responses": [
         "You can return your sneakers within 30 days of purchase.",
@@ -139,7 +157,10 @@
       "tag": "contact_info",
       "patterns": [
         "How can I contact you?",
+        "How can I contact customer support?",
         "What's your phone number?",
+        "Do you have customer service?",
+        "What’s your support email?",
         "Can I get your email?",
         "Do you have customer support?"
       ],
@@ -147,6 +168,17 @@
         "You can reach us at +256 750 457 145 or email us at support@sneakerstore.com.",
         "Our customer support line is available at 123-456-7890, or email us at support@sneakerstore.com.",
         "Feel free to contact us via phone at 123-456-7890 or email support@sneakerstore.com."
+      ]
+    },
+    {
+      "tag": "privacy_policy",
+      "patterns": [
+        "What is your privacy policy?",
+        "How do you handle customer data?",
+        "Is my information private?"
+      ],
+      "responses": [
+        "We take customer privacy seriously. Please review our full privacy policy on our website for details on how we protect your data."
       ]
     },
     {
@@ -206,17 +238,233 @@
       ]
     },
     {
+      "tag": "order_tracking",
+      "patterns": [
+        "Can I track my order?",
+        "How can I track my shipment?",
+        "Is there a way to see where my order is?"
+      ],
+      "responses": [
+        "Yes, once your order is shipped, you'll receive a tracking link via email to monitor your package."
+      ]
+    },
+    {
+      "tag": "return_exchange_initiation",
+      "patterns": [
+        "How do I initiate a return?",
+        "Can I exchange my sneakers?",
+        "How do I return or exchange?"
+      ],
+      "responses": [
+        "To initiate a return or exchange, contact our support team or use the return form on our website. We will guide you through the process."
+      ]
+    },
+    {
+      "tag": "product_warranty",
+      "patterns": [
+        "Do you offer a warranty on products?",
+        "Is there a warranty on sneakers?",
+        "Do sneakers come with a warranty?"
+      ],
+      "responses": [
+        "Yes, our products come with a standard 6-month warranty against manufacturing defects."
+      ]
+    },
+    {
+      "tag": "additional_fees",
+      "patterns": [
+        "Are there any additional taxes or fees?",
+        "Will I be charged extra fees?",
+        "Do I need to pay customs or duties?"
+      ],
+      "responses": [
+        "Depending on your location, additional taxes or import duties may apply. These are typically collected by the carrier upon delivery."
+      ]
+    },
+    {
       "tag": "cancellations",
       "patterns": [
         "How can I cancel my order?",
         "Can I cancel my order?",
         "What’s your cancellation policy?",
-        "Can I get a refund?"
+        "Can I get a refund?",
+        "How do I cancel/modify an order?"
       ],
       "responses": [
         "You can cancel your order within 24 hours of placing it.",
         "To cancel your order, please contact customer service within 24 hours.",
         "Our cancellation policy allows you to cancel within 24 hours of order placement."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "What countries do you ship to?",
+        "How long will it take to get my order?",
+        "How long does order processing take?",
+        "Can you deliver to my country?",
+        "Where do you ship?"
+      ],
+      "responses": [
+        "We ship to most countries worldwide! Contact us for specific information.",
+        "Your order will arrive within 3-5 business days after processing, depending on your location.",
+        "Order processing typically takes 1-2 business days before shipping."
+      ]
+    },
+    {
+      "tag": "payment_security",
+      "patterns": [
+        "Is my payment information secure?",
+        "Is it safe to enter my credit card details?",
+        "How secure is your payment system?"
+      ],
+      "responses": [
+        "Yes, your payment information is fully secure. We use encryption and secure payment gateways to protect your data."
+      ]
+    },
+    {
+      "tag": "international_shipping",
+      "patterns": [
+        "Do you offer international shipping?",
+        "Can you ship to other countries?",
+        "Do you ship globally?"
+      ],
+      "responses": [
+        "Yes, we offer international shipping to select countries. Check our shipping page for details."
+      ]
+    },
+    {
+      "tag": "shipping_rates",
+      "patterns": [
+        "What are your shipping rates?",
+        "How much does delivery cost?",
+        "What do you charge for shipping?"
+      ],
+      "responses": [
+        "Our shipping rates vary depending on your location and order size. You can calculate shipping costs during checkout."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "How long does delivery take?",
+        "When will my sneakers arrive?",
+        "How long is shipping?"
+      ],
+      "responses": [
+        "Delivery typically takes 3-5 business days within major cities, and 7-10 days for international orders."
+      ]
+    },
+    {
+      "tag": "gift_packaging",
+      "patterns": [
+        "Do you have gift packaging options?",
+        "Can I get my order gift-wrapped?",
+        "Is there gift packaging?"
+      ],
+      "responses": [
+        "Yes, we offer gift packaging options! Just choose the gift-wrapping option at checkout.",
+        "You can select gift packaging during the checkout process for a small additional fee."
+      ]
+    },
+    {
+      "tag": "damaged_order",
+      "patterns": [
+        "What if my order arrives damaged?",
+        "What should I do if my sneakers are damaged?",
+        "How do I report a damaged item?"
+      ],
+      "responses": [
+        "If your order arrives damaged, please contact us immediately for a replacement or refund.",
+        "In case of damaged items, send us a photo of the sneakers and we'll assist you with a replacement."
+      ]
+    },
+    {
+      "tag": "newsletter_unsubscribe",
+      "patterns": [
+        "How can I unsubscribe from emails?",
+        "How do I stop receiving promotions?",
+        "Can I unsubscribe from your newsletter?"
+      ],
+      "responses": [
+        "You can unsubscribe from our promotional emails by clicking the 'Unsubscribe' link at the bottom of any email, or by adjusting your preferences in your account settings."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Are there any discounts?",
+        "Do you have promotions?",
+        "How can I get a discount?"
+      ],
+      "responses": [
+        "Yes! We currently offer a 10% discount for new customers. Use code SNEAKER10 at checkout. Check our promotions page for more deals."
+      ]
+    },
+    {
+      "tag": "sizing_guide",
+      "patterns": [
+        "Do you have a sizing guide?",
+        "What size should I get?",
+        "How do I know my sneaker size?"
+      ],
+      "responses": [
+        "Yes, we have a detailed sizing guide on our website to help you find the perfect fit. Refer to the guide for measurements and conversion."
+      ]
+    },
+    {
+      "tag": "bulk_pricing",
+      "patterns": [
+        "Do you offer bulk pricing?",
+        "Can I get wholesale rates?",
+        "Do you have discounts for bulk orders?"
+      ],
+      "responses": [
+        "We offer bulk and wholesale pricing on larger orders. Please contact our sales team for more details and custom pricing."
+      ]
+    },
+    {
+      "tag": "backorders",
+      "patterns": [
+        "What happens if an item is out of stock?",
+        "Do you allow backorders?",
+        "Can I order an out-of-stock item?"
+      ],
+      "responses": [
+        "If an item is out of stock, you can choose to be notified when it becomes available, or place a backorder. Check the product page for more information."
+      ]
+    },
+    {
+      "tag": "custom_returns",
+      "patterns": [
+        "Can I return a custom item?",
+        "Do you accept returns on personalized items?",
+        "Are custom sneakers returnable?"
+      ],
+      "responses": [
+        "Unfortunately, we do not accept returns on custom or personalized items unless they arrive damaged or defective."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a rewards program?",
+        "Is there a loyalty program for frequent customers?",
+        "How can I earn points on my purchases?"
+      ],
+      "responses": [
+        "Yes! Our loyalty program allows you to earn points on every purchase, which can be redeemed for discounts on future orders. Sign up through your account dashboard."
+      ]
+    },
+    {
+      "tag": "address_change",
+      "patterns": [
+        "Can I change the shipping address?",
+        "Can I update my shipping details?",
+        "How do I change my delivery address?"
+      ],
+      "responses": [
+        "You can change your shipping address within 24 hours of placing your order by contacting customer support."
       ]
     }
   ]
