@@ -62,8 +62,8 @@
     {
       "tag": "items",
       "patterns": [
-        "What sneakers do you have?",
-        "What kind of sneakers are available?",
+        "What sneakers (shoes) do you have?",
+        "What kind of sneakers (shoes) are available?",
         "What do you sell?",
         "Show me your sneakers"
       ],
@@ -78,7 +78,7 @@
       "patterns": [
         "How do I place an order?",
         "Can I place an order online?",
-        "What's the process for buying sneakers?"
+        "What's the process for buying sneakers? (shoes)"
       ],
       "responses": [
         "You can place an order by selecting your sneakers, adding them to your cart, and proceeding to checkout. From there, follow the prompts to enter your shipping and payment information."
@@ -132,8 +132,8 @@
       "patterns": [
         "Do you have my size?",
         "What sizes are available?",
-        "Do you have sneakers in size 10?",
-        "Can I find size 9 sneakers?"
+        "Do you have sneakers (shoes) in size 10?",
+        "Can I find size 9 sneakers? (shoes)"
       ],
       "responses": [
         "We carry sizes from 6 to 13, including half-sizes!",
@@ -145,7 +145,7 @@
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
-        "Know any sneaker jokes?",
+        "Know any sneaker (shoe) jokes?",
         "Can you make me laugh?"
       ],
       "responses": [
@@ -253,7 +253,7 @@
       "tag": "return_exchange_initiation",
       "patterns": [
         "How do I initiate a return?",
-        "Can I exchange my sneakers?",
+        "Can I exchange my sneakers? (shoes)",
         "How do I return or exchange?"
       ],
       "responses": [
@@ -264,7 +264,7 @@
       "tag": "product_warranty",
       "patterns": [
         "Do you offer a warranty on products?",
-        "Is there a warranty on sneakers?",
+        "Is there a warranty on sneakers? (shoes)",
         "Do sneakers come with a warranty?"
       ],
       "responses": [
